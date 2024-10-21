@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('1329828.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background for readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote-section .quote {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.quote-section .author {
+  font-size: 1em;
+  color: #f00;
+  margin-top: 10px;
+}
+
+.description-section .description {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.links-section {
+  margin: 30px 0;
+}
+
+.links-section .link {
+  color: #f00;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.links-section .link:hover {
+  color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    .quote {
+        font-size: 1.2em;
+    }
+    .description {
+        font-size: 1em;
+    }
+}
